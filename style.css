@@ -4,19 +4,118 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+header{
+    background-color:rgb(243, 167, 53); 
+    height: 300px;
+    position: relative;
+    width: 100%;
+    h1{    
+        font-size: 2.5rem;
+        color: rgb(230, 228, 227);
+        text-decoration-line: underline;
+        position: absolute;
+        bottom: 55%;
+        padding-left: 10px;
+    
+    }
+    p{
+        font-size: 1.2rem;
+        position: absolute;
+        bottom: 40%;
+        padding-left: 12px;
+    }
+    }
+    nav{
+        background-color: rgb(219, 219, 218);
+        width: 100%;
+        height: 15%;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0px;
+        display:flex;
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+a:hover{
+    outline: 2px solid rgb(128, 128, 128);
+}
+main{
+    background-color: rgb(10, 20, 40);
+    color: rgb(214, 220, 224);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section:nth-child(1){
+    border: 1px solid gray;
+    text-align: center;
+    margin-top: 5%;
+    width: 75%;    
+}
+section:nth-child(2){
+    text-align: center;
+
+}
+section:nth-child(3){
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 75%;
+    justify-content: center;
+    text-align: start;
+    
+}
+ol{
+    list-style-position: inside;
+}
+section:nth-child(4){
+    text-align: center;
+
+}
+ul{
+    list-style-position: inside;
+}
+section:nth-child(5){
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 75%;
+    justify-content: center;
+    text-align: start;
+}
+section:nth-child(6){
+    width: 75%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+footer{
+    background-color: rgb(5, 5, 5);
+    color: darkgrey;
+    padding: 100px;
+    text-align: center;
+}
+
+
+
 .title{
     font-size: 2.5rem;
-    color: rgba(168, 25, 25, 0.87);
+    color: rgba(248, 166, 73, 0.87);
     line-height: 120%;
 }
-img{
-    width: 100%;
-    aspect-ratio: 16/9;
-    height: 200px;
+#colt{
+    
+    aspect-ratio: 390/221;
     margin: 1rem 0;
+    height: 250px;
+    max-width: 98%;
 }
-body{
-    padding: 0.4rem;
+.modos{
+    height: 100px;
+    aspect-ratio: 300/168;
+    max-width: 90%;
+
 }
 .subtitle{
     font-family: "Poppins", sans-serif; 
